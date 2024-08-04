@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/search-svgrepo-com.svg" type="image/x-icon">
+    <title>بحث الأحاديث النبوية</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="page-wrap">
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+
+        <h1>بحث الأحاديث النبوية الشريفة</h1>
+        
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="أدخل كلمات البحث">
+            <button id="search-button">بحث</button>
+        </div>
+
+        <div id="filter-container">
+            <select id="filter-select">
+                <option value="all">كل الأحاديث</option>
+                <option value="sahih">الأحاديث الصحيحة</option>
+                <option value="dhaif">الأحاديث الضعيفة</option>
+            </select>
+        </div>
+
+        <div id="dorar">
+            <!-- الأحاديث ستضاف هنا ديناميكيًا -->
+        </div>
+    </div>
+    <div class="footer text-center">
+        تم تطوير الموقع من قبل فارس عبد الرؤوف
+    </div>
+    <div class="footer text-center">
+        وبواسطة <a href="https://dorar.net" class="custom-link">الدُّرَرُ السَّنِيَّة</a>
+    </div>
+    <button onclick="topFunction()" id="scrollToTopBtn" title="الذهاب الى اعلى">↑</button>
+    <!-- استخدم CDN لتحميل jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

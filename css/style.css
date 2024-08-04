@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body {
+    font-family: 'Amiri', serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+}
+
+#page-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1 {
+    color: #1e5f74;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hadith {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.hadith.sahih {
+    background-color: #e6ffe6;
+}
+
+.hadith.dhaif {
+    background-color: #ffe6e6;
+}
+
+.hadith-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hadith-info {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+.hadith-info p {
+    margin: 5px 0;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#search-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1e5f74cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #1e5f74;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+#filter-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#filter-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.footer {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.more-button {
+    width: 150px;
+    margin: 1px auto;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #1e5f74cc;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+}
+
+.more-button:hover {
+    background-color: #1e5f74;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+a.custom-link {
+    color: #197b04;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #1e5f74cc;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#scrollToTopBtn.show {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#scrollToTopBtn:hover {
+    background-color: #1e5f74;
+    transform: scale(1.1);
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#page-wrap {
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#page-wrap.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#page-wrap.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    background-color: #4e4949b8;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+.theme-toggle.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-container input,
+.search-container button,
+#filter-select,
+
+#scrollToTopBtn {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.search-container input {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-container button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filter-select {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#scrollToTopBtn {
+    background-color: #1e5f74cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+body.dark-mode .search-container input,
+body.dark-mode .search-container button,
+body.dark-mode #filter-select,
+body.dark-mode #scrollToTopBtn {
+    background-color: #1e5f74cc;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+#dorar .hadith {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+    color: #000000;
+    border: 1px solid #ddd;
+}
+
+body.dark-mode #dorar .hadith {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+.custom-link {
+    color: #007bff;
+    transition: color 0.5s;
+}
+
+body.dark-mode .custom-link {
+    color: #ffcc00;
+}
+
+.loading {
+    color: inherit;
+}
+
+body.dark-mode #dorar .hadith-text {
+    font-size: 18px;
+    color: #fefefe;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+body.dark-mode #dorar .hadith-info {
+    font-size: 14px;
+    color: #b7b7b7;
+    font-weight: bold;
+}
+
+container button, body.dark-mode #filter-select, body.dark-mode #scrollToTopBtn {
+    background-color: #1e5f74cc;
+    color: #fff;
+    border: 1px solid #0000;
+}
+
+button, a, input {
+    -webkit-tap-highlight-color: transparent;
+}
