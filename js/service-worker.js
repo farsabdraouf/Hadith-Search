@@ -2,11 +2,11 @@
 const CACHE_NAME = 'hadith-search-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/style.css',
+  '../index.html',
+  '../css/style.css',
   '/script.js',
-  '/manifest.json',
-  '/search.png'
+  '../manifest.json',
+  '../img/search.png'
 ];
 
 self.addEventListener('install', function(event) {
