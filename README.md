@@ -31,7 +31,7 @@
 
 - خيار تصفية الاحاديث ليس دقيق 100% لذا وجب التنبيه
 - قم بالاطلاع على خلاصة حكم الحديث لمعرفة صحة الحديث
-- لمعرفة المزيد بالنسبة لحكم الاحاديث اضغط [هنا]([https://github.com/farsabdraouf](https://dorar.net/article/77/%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D9%8A%D8%A9-%D8%B9%D9%85%D9%84%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9)) و [هنا ايضا]([https://github.com/farsabdraouf](https://dorar.net/article/56/%D8%AA%D9%86%D8%A8%D9%8A%D9%87%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A%D8%A9-%D8%AE%D8%A7%D8%B5%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D9%8A%D8%A9))
+- لمعرفة المزيد بالنسبة لحكم الاحاديث اضغط [هنا](https://dorar.net/article/77/%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D9%8A%D8%A9-%D8%B9%D9%85%D9%84%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9) و [هنا ايضا](https://dorar.net/article/56/%D8%AA%D9%86%D8%A8%D9%8A%D9%87%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A%D8%A9-%D8%AE%D8%A7%D8%B5%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D9%8A%D8%A9)
 
 ## التثبيت المحلي
 
